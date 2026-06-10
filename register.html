@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Karnival POLYCC Mega 2025</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="register.html">Register</a>
+</nav>
+
+<div class="content">
+
+<h2>Participant Registration</h2>
+
+<form onsubmit="return goHome()">
+
+<label>Full Name</label>
+<input type="text"
+name="fullname"
+placeholder="Enter your full name"
+required>
+
+<label>Age</label>
+<input type="number"
+name="age"
+placeholder="Enter your age"
+required>
+
+<label>Email</label>
+<input type="email"
+name="email"
+placeholder="Enter your email"
+required>
+
+<label>Gender</label><br>
+<input type="radio" name="gender" required> Male
+<input type="radio" name="gender" required> Female
+<br><br>
+
+<label>Competition</label>
+<select name="competition" required>
+    <option value="">Select Competition</option>
+    <option>E-Sports</option>
+    <option>Singing</option>
+    <option>Debate</option>
+    <option>Innovation</option>
+</select>
+
+<input type="submit" value="Register">
+
+</form>
+
+</div>
+
+<footer>
+    Karnival POLYCC Mega 2025
+</footer>
+
+<script>
+function goHome() {
+    alert("Registration Successful!");
+    window.location.href = "index.html";
+    return false;
+}
+</script>
+</body>
+</html>

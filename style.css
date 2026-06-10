@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#0066cc;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+}
+
+.content{
+    min-height:400px;
+    padding:20px;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:1px solid black;
+}
+
+th, td{
+    padding:10px;
+}
+
+.gallery img{
+    width:250px;
+    height:180px;
+    margin:10px;
+}
+
+form{
+    width:400px;
+}
+
+input, select{
+    width:100%;
+    padding:8px;
+    margin-bottom:10px;
+}
